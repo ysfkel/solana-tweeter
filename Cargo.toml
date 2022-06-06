@@ -1,0 +1,9 @@
+[workspace]
+members = [
+  "programs/*",
+]
+
+[provider]
+cluster = "devnet"
+# cluster = "localnet"
+wallet = "/Users/yusufkelo/.config/solana/id.json"
